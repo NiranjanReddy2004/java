@@ -14,6 +14,6 @@ public class fibbonacci {
             a =b;
             b =c;
         }
-
+sc.close();
     }
 }

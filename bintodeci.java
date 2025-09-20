@@ -15,6 +15,7 @@ public class bintodeci {
             
         }
         System.out.println("decimal="+dec);
+        sc.close();
     }
 
 
