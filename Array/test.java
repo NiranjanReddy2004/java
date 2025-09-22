@@ -1,13 +1,13 @@
- package Array;
+package Array;
 
-public class arraydemo {
+public class test {
     public static void main(String[] args) {
-        int[]a = {10,20,30,40};
+        int []a = {10,20,30,40};
         for(int n:a){
             System.out.println(n);
         }
-    }
-    
 
+        
+    }
     
 }
