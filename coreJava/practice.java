@@ -1,15 +1,16 @@
+import java.util.Scanner;
 public class practice {
-    public static boolean isperfect(int n, int i, int sum){
-        if(i>n/2) return n==sum;
-        if(n%i==0) sum+=i;
-        return isperfect(n, i, sum);
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); {
+            System.out.println("enter a number");
+            int n = sc.nextInt();
+            int rev = 0;
+            while (n > 0) {
+                int reminder = n % 10;
+                rev = (rev * 10) + reminder;
+                n = n / 10;
+            }
+            System.out.println(rev);
+        }
     }
-    public static void main(String[]args){
-        int n =56;
-        System.out.println(isperfect(n,1,0));
-
-    }
-    
-
 }
